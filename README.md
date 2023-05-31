@@ -13,3 +13,5 @@ Within this chosen path lies the potential for revelation, the prospect of uncov
 Embrace the uncertainty, embrace the challenge, and join me in this audacious pursuit. Today, we embark on a quest fueled by curiosity, driven by the belief that luck favors the intrepid. Are you ready to unlock the secrets that lie within the depths of the code?
 
 FeelingLucky - where serendipity and expertise intertwine, unraveling the extraordinary. Take a leap of faith and let us explore together, guided by the fortuitous roll of the dice.
+
+![demo](demo.gif)
