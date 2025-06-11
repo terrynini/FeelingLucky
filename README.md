@@ -19,3 +19,7 @@ FeelingLucky - where serendipity and expertise intertwine, unraveling the extrao
 ## Installation
 
 Put this whole github repo under the plugin folder of IDA, and make sure the folder name is FeelingLucky.
+
+```
+C:\Program Files\IDA Professional 9.0\plugins>git clone git@github.com:terrynini/FeelingLucky.git
+```
