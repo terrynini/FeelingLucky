@@ -15,3 +15,7 @@ Embrace the uncertainty, embrace the challenge, and join me in this audacious pu
 FeelingLucky - where serendipity and expertise intertwine, unraveling the extraordinary. Take a leap of faith and let us explore together, guided by the fortuitous roll of the dice.
 
 ![demo](demo.gif)
+
+## Installation
+
+Put this whole github repo under the plugin folder of IDA, and make sure the folder name is FeelingLucky.
