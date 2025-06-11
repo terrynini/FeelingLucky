@@ -4,7 +4,7 @@
     "name": "FeelingLucky",
     "entryPoint": "FeelingLucky.py",
     "categories": ["disassembly-and-processor-modules", "decompilation", "debugging-and-tracing"],
-    "logoPath": "function_analyzer_logo.png",
+    "logoPath": "dice_icon.png",
     "idaVersions": ">=8.4",
     "description": "FeelingLucky is an IDA plugin that randomly selects a function on each invocation, guiding you through the complex maze of binary code to discover hidden gems.",
     "version": "1.0.0"
