@@ -1,7 +1,7 @@
 # FeelingLucky
 
 <p align="center">
-<img src="FeelingLucky/dice_icon.png" style=" width:100px ;height:100px; ">
+<img src="dice_icon.png" style=" width:100px ;height:100px; ">
 </p>
 
 Amidst the labyrinthine realm of countless functions, even the most adept reverse engineers can find themselves adrift in a sea of complexity. But today, fortune smiles upon me, and I am feeling lucky.
