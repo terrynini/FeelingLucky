@@ -1,0 +1,28 @@
+name: Release
+
+on:
+  push:
+    tags:
+      - "v*.*.*"
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+
+      - name: Create release zip
+        run: |
+          mkdir FeelingLucky
+          cp * FeelingLucky/
+          zip -r FeelingLucky.zip FeelingLucky
+
+      - name: Create release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: FeelingLucky.zip
+          generate_release_notes: true
