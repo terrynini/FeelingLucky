@@ -23,8 +23,9 @@ class LuckyPlugin(idaapi.plugin_t):
     wanted_name = "FeelingLucky"
 
     def init(self):
-        idahome = idaapi.idadir("plugins/FeelingLucky")
-        icon_data = open(idahome+"/dice_icon.png", "rb").read()
+        PLUGIN_DIR = os.path.dirname(__file__)
+        ICON_PATH  = os.path.join(PLUGIN_DIR, "dice_icon.png")
+        icon_data = open(ICON_PATH, "rb").read()
         act_icon = ida_kernwin.load_custom_icon(data=icon_data, format="png")
         action_desc = ida_kernwin.action_desc_t(
             'nini:FeelingLucky',
