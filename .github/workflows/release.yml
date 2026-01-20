@@ -18,7 +18,10 @@ jobs:
       - name: Create release zip
         run: |
           mkdir FeelingLucky
-          cp * FeelingLucky/
+          cp FeelingLucky.py FeelingLucky
+          cp LICENSE FeelingLucky
+          cp dice_icon.png FeelingLucky
+          cp ida-plugin.json FeelingLucky
           zip -r FeelingLucky.zip FeelingLucky
 
       - name: Create release
