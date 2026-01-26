@@ -9,7 +9,7 @@
     "description": "FeelingLucky is an IDA plugin that randomly selects a function on each invocation, guiding you through the complex maze of binary code to discover hidden gems.",
     "version": "1.0.2",
     "urls": {
-      "repository": "https://github.com/terrynini/FeelingLucky/"
+      "repository": "https://github.com/terrynini/feelinglucky"
     },
     "authors": [
       {
